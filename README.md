@@ -8,8 +8,11 @@ Emotion Recognition based fine-tuning(various Model)
 
 # pre-train
 
-  1. Run **pretrain.py** file. (You need to put the data in the pretrainingData folder in csv file format, **like FER2013** / And you choose pretrain model int OtherModel)
-    and then, The weights file is created in the pre_trained folder
+  1. Run **pretrain.py** file.
+     - need to put the data in the pretrainingData folder in csv file format, **like FER2013** 
+     - choose pretrain model in the OtherModel folder
+     
+  2. The **weights.h5** file is created in the pre_trained folder
  
 # training
 
